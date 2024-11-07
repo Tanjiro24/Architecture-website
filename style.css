@@ -790,3 +790,18 @@ footer {
         height: 40vh;
     }
 }
+
+@media (min-width:360px) {
+    .position1 {
+
+        right: 55px;
+    }
+
+    .position2 {
+        right: 35px;
+    }
+
+    .position3 {
+        right: 15px;
+    }
+}
