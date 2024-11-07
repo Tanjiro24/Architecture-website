@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insightful Architects</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar">
+            <a href="#" class="logo">
+                <img src="images/logo.png" alt="Insightful Architects Logo">
+            </a>
+            <div>
+                <input type="checkbox" id="sidebar-active">
+                <label for="sidebar-active" class="open-sidebar-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px"
+                        fill="black">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                    </svg>
+                </label>
+                <label id="overlay" for="sidebar-active"></label>
+                <div class="links-container">
+                    <label for="sidebar-active" class="close-sidebar-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px"
+                            fill="black">
+                            <path
+                                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                        </svg>
+                    </label>
+                    <a class="link" href="#">Home</a>
+                    <a class="link" href="#">About</a>
+                    <a class="link" href="#">Products</a>
+                    <a class="link" href="#">Blog</a>
+                    <button class="login-button" href="#" class="login-button">Login</button>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <section class="hero">
+        <div class="container1">
+            <div class="trp-glass">
+                <h1 class="white">Connecting You With <span class="uppercase">Architects</span></h1>
+                <p class="white">Find the perfect architect for your project.</p>
+            </div>
+
+            <div class="search-bar">
+                <label class="bold darkblue" for="">Search By</label>
+                <input type="text" placeholder="Search By Name" id="search-name">
+                <input type="text" placeholder="Location" id="search-location">
+                <button id="search-button">Search</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="connect">
+        <div class="container">
+            <h2 class="lightblack margin-bottom"><span class="darkblue">Want To Connect</span> With An Architect?</h2>
+            <div class="separation2">
+                <div class="left"></div>
+                <div class="small-logo"><img src="images/smallLogo.svg" alt=""></div>
+                <div class="right"></div>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <div class="icon"><img src="images/search.png" alt="Search"></div>
+                    <div class="darkblue head3"><span class="step-number position1">1</span><h3 class="darkblue head3">Search</h3></div>
+                </div>
+                <div class="step">
+                    <div class="icon"><img src="images/reachout.png" alt="Reach Out"></div>
+                    <div class="darkblue head3"><span class="step-number position2">2</span><h3 class="darkblue head3">Reach Out</h3></div>
+                </div>
+                <div class="step">
+                    <div class="icon"><img src="images/search.png" alt="Consultation"></div>
+                    <div class="darkblue head3"><span class="step-number position3">3</span><h3 class="darkblue head3">Consultation</h3></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="feedback">
+        <div class="container">
+            <div class="margin-bottom">
+                <h2 class="white margin large">Have Any Feedback For Us?</h2>
+                <h3 class="white margin large">Contact Us Today</h3>
+            </div>
+
+            <form id="feedback-form">
+                <div class="form-group">
+                    <input type="text" id="firstName" name="firstName" placeholder="First Name">
+                    <input type="text" id="lastName" name="lastName" placeholder="Last Name">
+                </div>
+                <div class="form-group">
+                    <input type="email" id="emailId" name="emailId" placeholder="Email Id">
+                    <input type="tel" id="contactNumber" name="contactNumber" placeholder="Contact Number">
+                </div>
+                <div class="form-group">
+                    <textarea id="comment" name="comment" placeholder="Comment"></textarea>
+                </div>
+                <button type="submit"><i class="fa-solid fa-paper-plane"></i>Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="profiles">
+        <div class="container">
+            <h2 class="margin-bottom">View Member Architect Profiles</h2>
+            <div class="separation2">
+                <div class="left"></div>
+                <div class="small-logo"><img src="images/smallLogo.svg" alt=""></div>
+                <div class="right"></div>
+            </div>
+            <div class="profile-slider">
+                <button class="prev-button">←</button>
+                <div class="profile-cards">
+                    <div class="profile-card">
+                        <img src="images/profile1.png" alt="Lanvin Moto">
+                        <h3>Lanvin Moto</h3>
+                        <p>Senior Architect</p>
+                        <div class="rating">★★★★★</div>
+                    </div>
+                    <div class="profile-card">
+                        <img src="images/profile2.png" alt="John Carten">
+                        <h3>John Carten</h3>
+                        <p>Senior Architect</p>
+                        <div class="rating">★★★★☆</div>
+                    </div>
+                    <div class="profile-card">
+                        <img src="images/profile3.png" alt="Jenny">
+                        <h3>Jenny</h3>
+                        <p>Senior Architect</p>
+                        <div class="rating">★★★★★</div>
+                    </div>
+                    <div class="profile-card">
+                        <img src="images/profile1.png" alt="Lanvin Moto">
+                        <h3>Lanvin Moto</h3>
+                        <p>Senior Architect</p>
+                        <div class="rating">★★★★★</div>
+                    </div>
+                    <div class="profile-card">
+                        <img src="images/profile2.png" alt="John Carten">
+                        <h3>John Carten</h3>
+                        <p>Senior Architect</p>
+                        <div class="rating">★★★★☆</div>
+                    </div>
+                    <div class="profile-card">
+                        <img src="images/profile3.png" alt="Jenny">
+                        <h3>Jenny</h3>
+                        <p>Senior Architect</p>
+                        <div class="rating">★★★★★</div>
+                    </div>
+                </div>
+                <button class="next-button">→</button>
+            </div>
+            <button id="view-all-profiles">View All Profiles</button>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="container">
+            <h2 class="white margin">Sign Up To Our Newsletter</h2>
+            <form id="newsletter-form">
+                <div class="box-letter">
+                    <input type="email" placeholder="Enter Your Email Address" id="email">
+                    <button type="submit">Subscribe Now</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container2">
+            <div class="together">
+                <div class="logo2">
+                    <img src="images/logo2.png" alt="Insightful Architects Logo">
+                </div>
+
+                <div class="social-links">
+                    <h4 class="white font-size-lg">Follow Us On</h4>
+                    <a class="white" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="white" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="white" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="white" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="white" href="#"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+            </div>
+            <div class="quick-links">
+                <h4 class="white font-size-lg">Quick Links</h4>
+                <a class="white font-size" href="#">Home</a>
+                <a class="white font-size" href="#">About Us</a>
+                <a class="white font-size" href="#">Architects</a>
+                <a class="white font-size" href="#">Contact</a>
+            </div>
+
+            <div class="get-in-touch">
+                <h4 class="white font-size-lg">Get In Touch</h4>
+
+                <a class="white font-size" href="#"><i class="fas fa-globe-americas"></i>1234 Lorem ipsum, Suite
+                    400,
+                    Sacramento, CA
+                    12345</a>
+                <a class="white font-size" href="#"><i class="fas fa-phone"></i>888-123-4567</a>
+                <a class="white font-size" href="#"><i class="fas fa-envelope"></i>pinfo@insightfularchitects.com</a>
+            </div>
+        </div>
+        <div class="separation"></div>
+        <p class="copyright">copyright &copy; 2023 Insightful Architects, all rights resvered </p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit-id.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
