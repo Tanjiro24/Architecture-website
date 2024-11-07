@@ -804,4 +804,9 @@ footer {
     .position3 {
         right: 15px;
     }
+
+    #feedback-form button {
+        padding: 15px 8px;
+        width: 40%;
+    }
 }
